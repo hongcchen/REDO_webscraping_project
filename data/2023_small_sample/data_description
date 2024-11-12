@@ -1,0 +1,5 @@
+article_sample.pkl contains DOIs for a sample of 6000 journal articles published in 2023 (via Crossref).
+
+author_sample contains a dict structured like:
+  {DOI : (Article title, [{'display_name': Author's name, 'id': OpenAlex ID} for each author])}
+It contains the 5993 articles from the sample that were able to be found on OpenAlex via DOI.
